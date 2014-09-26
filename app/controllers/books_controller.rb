@@ -8,3 +8,4 @@ def show
 @book = Book.find(params[:id])
 end
 end
+end
