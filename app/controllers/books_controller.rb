@@ -3,9 +3,9 @@ def index
 
 
 @available_at = Time.now
-#@books = ["Atlas Shrugged", "Ender's Game", "Hamlet", "The Hobbit"]
+@books = ["Atlas Shrugged", "Ender's Game", "Hamlet", "The Hobbit"]
 
-@books = Book.all
+#@books = Book.all
 end
 end
 #end
